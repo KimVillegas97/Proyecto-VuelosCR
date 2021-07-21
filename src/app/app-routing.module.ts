@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LoginComponent } from './componets/login/login.component';
+import { HomePageComponent } from './componets/home-page/home-page.component';
+
 
 const routes: Routes = [
 
-  {path:'LoginVuelosCR',component:LoginComponent},
-  {path:'**',redirectTo:'LoginVuelosCR'}
+  {path:'VuelosCR',component:HomePageComponent},
+  {path:'**',redirectTo:'VuelosCR'}
 
 ];
 
